@@ -1,4 +1,4 @@
-testlist = ["A","B","AB","O"]
+testlist = ["A","B","AB","O","A"]
 testset = set(["A","B","AB","O","A"])
 
 print(testlist)

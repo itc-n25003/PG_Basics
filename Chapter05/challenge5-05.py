@@ -1,6 +1,6 @@
-musicians = {"RADWINMPS":"Ground Zero",
-             "yoezukenshi":"peace sign",
-             "yorushika":"Elma"
+musicians = {"RADWINMPS":["Ground Zero","kaishin no ichigeki"],
+             "yoezukenshi":["peace sign","Unbelivers"],
+             "yorushika":["Elma","yomagai"]
              }
 
 print(musicians)
