@@ -1,14 +1,14 @@
 num=[2,14,19,98,60,62,13,25,119]
 
 while True:
-    answer = input("write some number or q:")
+    answer = input("数字 か qを入力してください:")
     if answer == "q":
         break
     try:
         answer = int(answer)
     except ValueError:
-        print("don't write alphabet.")
+        print("数字を入れてください！")
     if answer in num:
-        print("OK")
+        print("正解")
     else:
-        print("try again")
+        print("不正解")
