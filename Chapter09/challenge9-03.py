@@ -1,7 +1,12 @@
 import csv
 
-with open("ch.csv","w",newline='') as f:
-    w = csv.writer(f, delimiter=",")
-    w.writerow(["Top Gun","Risky Business","Minority Report"])
-    w.writerow(["Titanic","The Revenant","Inception"])
-    w.writerow(["Training Day","Man on Fire","Flight"])
+list=[["Top Gun","Risky Business","Minority Report"],["Titanic","The Revenant","Inception"],["Training Day","Man on Fire","Flight"]]
+
+with open("ch.csv","w") as f:
+    spamwriter = csv.writer(f, delimiter=",")
+    for inlist in list:
+        spamwriter.writerow(inlist)
+
+
+
+
